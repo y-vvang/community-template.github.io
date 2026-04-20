@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="static/javascript/script.js"></script>
+    <script src="static/javascript/script_view_partypage.js" defer></script>
+    <base target="_self">
+</head>
+<body class="partypage">
+    <header>
+        <h2 id="h2_party_name"></h2>
+        &thinsp;<span id="span_party_status"></span>
+        <table>
+            <thead>
+                <tr><th colspan="2"><h2 class="mono">Info</h2></th></tr>
+            </thead>
+            <tbody>
+                <tr><th>ID</th><td id="td_party_id"></td></tr>
+                <tr><th>Host</th><td id="td_party_responsible"></td></tr>
+                <tr><th>Type</th><td><span id="span_party_type"></span></td></tr>
+                <tr><th>Begin</th><td id="td_party_date_begin"></td></tr>
+                <tr><th>End</th><td id="td_party_date_end"></td></tr>
+                <tr><th>Lasts</th><td id="td_party_date_lasting"></td></tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr><th colspan="2"><h2 class="mono">Reward</h2></th></tr>
+            </thead>
+            <tbody id="tbody_party_reward">
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr><th colspan="2"><h2 class="mono">Result</h2></th></tr>
+            </thead>
+            <tbody id="tbody_party_result">
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr><th colspan="2"><h2 class="mono">Summary</h2></th></tr>
+            </thead>
+                <tr><th colspan="2"><a id="a_party_summary"></a></th></tr>
+        </table>
+    </header>
+    <main>
+        <iframe id="iframe_party" name="iframe_party"></iframe>
+    </main>
+</body>
+</html>

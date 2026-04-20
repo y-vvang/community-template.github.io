@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="static/image/favicon.png">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="static/javascript/script.js"></script>
+    <base target="iframe_main">
+    <title>Community Template</title>
+</head>
+<body class="index">
+    <header>
+        <table class="mono">
+            <tbody>
+                <tr>
+                    <td><b>&thinsp;Community Template</b></td>
+                    <td><b>|</b></td>
+                    <td><a href="home.html" class="button_header">Home</a></td>
+                    <td><a href="account.html" class="button_header">User</a></td>
+                    <td><a href="resource.html" class="button_header">Resource</a></td>
+                    <td><a href="party.html" class="button_header">Party</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td><a title="Help" href="help.html" class="button_circle">?</a></td>
+                    <td><a title="Check In" href="javascript:alert('put a online form URL here...')" target="_blank" class="button_circle">√</a></td>
+                    <td><a title="Me" href="javascript:alert('put a online form URL here...')" target=_blank class="button_circle">…</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+        <iframe name="iframe_main" src="home.html"></iframe>
+    </main>
+    <footer>
+        <div class="mono">
+            <a href="https://github.com" target="_blank">Github</a>/Community_Template &copy; y-vvang@github.com
+        </div>
+    </footer>
+    <aside>
+        <label>
+            <input type="checkbox" onchange="setTimeout(() => { this.closest('aside').remove(); }, 500);">
+            I accept <a href="help.html"><i>Help Docs</i></a>
+        </label>
+    </aside>
+</body>
+</html>

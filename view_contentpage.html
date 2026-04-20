@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="static/javascript/script.js"></script>
+    <script src="static/javascript/script_view_contentpage.js" defer></script>
+</head>
+<body class="contentpage">
+    <header>
+        <table id="table_contentpage_info">
+            <thead>
+                <tr><th colspan="2"><span onclick="javascript:location.reload()">&#x21BB;</span><h1 id="h1_title"></h1></th></tr>
+            </thead>
+            <tbody>
+                <tr><td id="td_author" rowspan="2"></td><td id="td_zhua" class="mono"></td></tr>
+                <tr><td id="td_type" class="mono"></td></tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+        <iframe id="iframe_content" name="iframe_content"></iframe>
+        <h2 class="mono">&nbsp;Chat</h2>
+        <div id="div_chat" class="chat">
+            <iframe id="iframe_chat" name="iframe_chat"></iframe>
+        </div>
+    </main>
+</body>
+</html>
