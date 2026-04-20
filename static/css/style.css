@@ -336,7 +336,7 @@ span.party_official {
 }
 
     span.party_official::before {
-        content: "Official Party";
+        content: "Official";
         display: inline-block;
     }
 
@@ -351,7 +351,7 @@ span.party_individual {
 }
 
     span.party_individual::before {
-        content: "Custom Party";
+        content: "Custom";
         display: inline-block;
     }
 
